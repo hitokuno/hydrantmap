@@ -1,0 +1,15 @@
+CITY_JP	City	dataUrl	delimiter	ignorePrefix	id	title	type	lat	lng	note	update
+#あわら市	
+#三方上中郡若狭町	
+#三方郡美浜町	
+#丹生郡越前町	
+#勝山市	
+#吉田郡永平寺町	
+#坂井市	
+#大野市	
+#大飯郡高浜町	
+#小浜市	
+敦賀市	Turuga	data/Fukui/turugamikata_firehydrant.txt	\t	#	0	1	0	3	4	1	5
+#福井市	
+#越前市	
+#鯖江市	

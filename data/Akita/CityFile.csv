@@ -1,0 +1,19 @@
+CITY_JP	City	dataUrl	delimiter	ignorePrefix	id	title	type	lat	lng	note	update
+#にかほ市	
+#仙北市	
+#仙北郡美郷町	
+#北秋田市	
+#北秋田郡上小阿仁村	
+#南秋田郡五城目町	
+#南秋田郡八郎潟町	
+#大仙市	
+#大館市	
+横手市	Yokote	data/Akita/Yokote.csv	,	#	5	5	0	6	7	3	8
+#湯沢市	
+#潟上市	
+#由利本荘市	
+#男鹿市	
+#秋田市	
+#能代市	
+#鹿角市	
+#鹿角郡小坂町	

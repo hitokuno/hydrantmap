@@ -8,7 +8,7 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
     <script type="text/javascript">
       function initialize() {
-        var mode = "closest";
+        var mode = "all";
         var ignorePrefix = "#";
         var params = getParams();
         var pref = params["pref"];
@@ -26,21 +26,20 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-      <![endif]
+    <![endif]
     -->
   </head>
   <body onload="initialize();">
     <div id="" class="container">
       <h1><a id="index" href="menu.html" class="title">消火栓マップ</a></h1>
       <div class="panel panel-default">
-       <div class="panel-heading">
-         <h3 id="id" class="panel-title">管理番号：</h3>
-       </div>
-       <div class="panel-body">
-         <div id="map_canvas" style="width:100%; height:500px; margin: 10px auto;"></div>
-         <pre id="last_update">登録日：</pre>
+        <div class="panel-heading">
+          <h3 class="panel-title">全件表示</h3>
+        </div>
+        <div class="panel-body">
+          <div id="map_canvas" style="width:100%; height:500px; margin: 10px auto;"></div>
+        </div>
         <p><img src="images/icon_hydrant.png">消火栓　<img src="images/icon_hydrant2.png">防火水槽</p>
-       </div>
       </div>
       <div class="panel-body">
         <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="http://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><a xmlns:cc="http://creativecommons.org/ns#" href="http://aizu.io/" property="cc:attributionName" rel="cc:attributionURL">Code for Aizu</a> を著作者とするこの 作品 は <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">クリエイティブ・コモンズの 表示 4.0 国際 ライセンス</a>で提供されています。
