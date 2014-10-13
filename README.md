@@ -1,4 +1,4 @@
-[全国消火栓マップ](http://http://openpublic.sakura.ne.jp/hydrantmap/js/index.html)
+[全国消火栓マップ](http://openpublic.sakura.ne.jp/hydrantmap/js/index.html)
 =====================
 
 全国の消火栓情報を地図に表示します。  
